@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# X Learning Lab
 
-## Getting Started
+在 X 上做 AI 持续学习运营实验的公开说明页。
 
-First, run the development server:
+- 账号：[@esan7_m](https://x.com/esan7_m)
+- 技术栈：Next.js · Tailwind CSS · KaTeX
+- 部署：GitHub Pages（静态导出）
+
+## 本地开发
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+打开 [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 构建
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+静态产物在 `out/`。
 
-To learn more about Next.js, take a look at the following resources:
+## GitHub Pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+推送到 `main` 后，Actions 会构建并发布到：
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+`https://am5188.github.io/x-learning-on-x/`
 
-## Deploy on Vercel
+## 内容边界
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+本站讲述实验问题、公开算法公式、结果快照、成本与暂停原因。
+不包含私密凭证、cookie、或未公开运营密钥。
